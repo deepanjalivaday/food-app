@@ -1,0 +1,26 @@
+# Environment variables - never upload these
+.env
+
+# Virtual environment - too large, recreated from requirements.txt
+backend/venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Node modules
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Data files - too large for GitHub
+backend/data/raw/
+backend/scripts/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
